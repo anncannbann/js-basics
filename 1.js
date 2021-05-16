@@ -73,3 +73,29 @@ let js = "amazing";
       age = 50;
 */
 
+
+
+/* BAsic Operators */
+/*
+//minus op
+const curr = 2021;
+const age1 = curr-1998;
+const age2 = curr-2000;
+console.log(age1,age2);
+
+//diff op
+console.log(age2*2, age1 /2, 2**3)
+
+//concat
+const fname = 'alex'
+const lname = 'smith'
+console.log(fname +' '+ lname);
+
+//assignment op
+let x = 15+96;
+x++;
+console.log('x is:' +x)
+
+//comparison op
+console.log(age1 > age2);     // >,<, >=, <=
+*/
