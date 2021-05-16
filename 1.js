@@ -99,3 +99,6 @@ console.log('x is:' +x)
 //comparison op
 console.log(age1 > age2);     // >,<, >=, <=
 */
+
+/* Operator Precedence */
+//mdn precedence op
