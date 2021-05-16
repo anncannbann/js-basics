@@ -59,8 +59,8 @@ let js = "amazing";
 
 
 /* let,const and var  diff ways to declaring variables*/
-
-      //using let
+/*
+      //using let 
       let a = 1;
 
       //using var
@@ -71,3 +71,5 @@ let js = "amazing";
       //var - avoid this!!!!!
       var age = 44;
       age = 50;
+*/
+
