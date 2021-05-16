@@ -37,6 +37,16 @@ let js = "amazing";
       
       //Bigint large numbers
 
+
+      //typeof
+      console.log(typeof 100);
+
 */
 
 
+      let j = true;
+      console.log(typeof j)
+      console.log(j)
+
+      j = 'heckyes';
+      console.log(typeof j)
