@@ -102,3 +102,25 @@ console.log(age1 > age2);     // >,<, >=, <=
 
 /* Operator Precedence */
 //mdn precedence op
+
+
+
+/*Strings and Template Literals*/
+/*
+const fname = 'John';
+const job = 'dead';
+const byear = 1998;
+
+console.log("Hi my name is "+ fname +' and i was born in '+ byear +' and i am '+ job)
+
+//template literals
+const newname  = `Hi my name is ${fname} and i was born in ${byear} and i am ${job}`;
+console.log(newname);
+
+console.log('HEllo \n\ new line');
+
+//using template literal
+console.log(`hello
+new line without n`)
+
+*/
