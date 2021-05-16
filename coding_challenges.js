@@ -14,9 +14,10 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 
 */
 
+
+/*
+
 //solution
-
-
 let mweight = 78,mheight = 1.69;
 let jweight = 92, jheight = 1.76;
 
@@ -30,6 +31,10 @@ let markHigherBMI
 if(y > z);
     markHigherBMI = true;
 console.log(markHigherBMI)
+*/
+
+
+
 
 ////////////////////////////////////
 // Coding Challenge #2
@@ -44,6 +49,20 @@ HINT: Use an if/else statement 😉
 
 */
 
+let mweight = 78,mheight = 1.69;
+let jweight = 92, jheight = 1.76;
 
 
 
+let mark = mweight / mheight ** 2;
+let john = jweight / jheight ** 2;
+
+
+if(mark > john)
+    {
+        console.log(`Marks BMI ${mark} is higher  than John's ${john}`);
+    } 
+else
+{
+        console.log(`John's BMI ${john} is higher  than Mark's ${mark}`)
+}
