@@ -127,6 +127,7 @@ new line without n`)
 
 
 /* if-else */
+/*
 const age = 15;
 
       if(age >= 18)
@@ -138,3 +139,13 @@ const age = 15;
                   yearsLeft = 18-age;
                   console.log('You still have '+ yearsLeft + ' years left 🥲' )
             }
+
+            */
+
+/* Truthy Falsy values */
+//5 basic values F : 0,'', undef,null,NaN
+
+      console.log(Boolean(0));
+      
+
+/* === vs == */
