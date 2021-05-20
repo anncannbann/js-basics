@@ -99,3 +99,15 @@ TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 
 GOOD LUCK 😀
 */
+
+ const D = (96+108+89)/3;
+ const K = (88+91+110 )/3;
+
+ console.log(D,K);
+ if(D>K){
+     console.log(`D (${D}) is greater than K (${K})`)
+ }
+ else{
+    console.log(`K (${K}) is greater than D (${D})`)
+}
+ 
