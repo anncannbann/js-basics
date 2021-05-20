@@ -25,6 +25,5 @@ function fruit(apples,orange){
 
 const x = fruit(10,4);
 console.log(x);
-
+console.log(fruit(9,8));
 */
-
