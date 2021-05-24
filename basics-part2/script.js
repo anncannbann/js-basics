@@ -15,6 +15,13 @@ logger('Jane');
 
 */
 
+//ARROW FUNCTION
+const c = birth => 2021-birth;
+const x = c(1998);
+console.log(x);
+
+
+
 //function calling and using return.
 /*
 function fruit(apples,orange){
