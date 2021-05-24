@@ -15,11 +15,23 @@ logger('Jane');
 
 */
 
-//ARROW FUNCTION
+//ARROW FUNCTION 1 line code
+/*
 const c = birth => 2021-birth;
 const x = c(1998);
 console.log(x);
+*/
+//arrow for multiple
+ 
+const yearUntillRetirement = (birth,firstname) =>{
+    const age = 2020- birth;
+    const retire = 65-age;
+    //return retire;
+    return `${firstname} retires in ${retire} years`;
+}
 
+console.log(yearUntillRetirement(1998,'Bani'));
+console.log(yearUntillRetirement(1998,'Bani'));
 
 
 //function calling and using return.
