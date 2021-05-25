@@ -145,3 +145,32 @@ console.log(friends.includes(22)); //True
 
 
 
+//Objectssssss key value pairs
+
+const jArray= [
+    'John',
+    'Smith',
+    2047-283,
+    'teacher',
+    ['a','b','v']
+
+];
+
+//OBJECTS
+
+
+// Just like arrays, we use objects to group together diff variables which belong together. 
+//obj vs arrray, in objects, order of the values do not mater when we want to rtrieve that.Arrays order number matters alot cause thats how we retrieve it.
+//Use array for ordered type of data and obj for unordered data like below.
+
+
+
+//way 1 :Object Literal Syntax(literally writing the content).
+//this obj has 5 properties. 
+const jobj= {
+    firstName : 'John',
+    lastName : 'Smith',
+    age: 2021-1998,
+    job: 'teacher',
+    kids: ['a','b','v']
+};
