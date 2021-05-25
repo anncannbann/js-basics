@@ -146,7 +146,7 @@ console.log(friends.includes(22)); //True
 
 
 //Objectssssss key value pairs
-
+/*
 const jArray= [
     'John',
     'Smith',
@@ -174,3 +174,59 @@ const jobj= {
     job: 'teacher',
     kids: ['a','b','v']
 };
+*/
+
+//DOT VS BRACKET NOTATION TO RETRIVE DATA
+/*
+const jobj= {
+    firstName : 'John',
+    lastName : 'Smith',
+    age: 2021-1998,
+    job: 'teacher',
+    kids: ['a','b','v']
+};
+console.log(jobj);
+
+//dot notation
+console.log(jobj.lastName);
+
+//bracket
+console.log(jobj['firstName']);
+
+
+
+//Stored the Repeating Part, And it will retrieve firstName and lastName. Cannot do this with dot operator.
+const namekey = 'Name';
+console.log(jobj['first'+namekey]);
+console.log(jobj['last'+namekey]);
+
+//console.log(jobj.'last'+ namekey); error
+
+
+const interestedIn = prompt('What do you want to know about John? Choose between firstName,lastName,age,job or kids');
+if(jobj[interestedIn]){
+    console.log(jobj[interestedIn]);
+}
+else{
+    console.log("Not Found,please Check input");
+}
+*/
+
+//USING BOTH TOGETHER
+const jobj= {
+    firstName : 'John',
+    lastName : 'Smith',
+    age: 2021-1998,
+    job: 'teacher',
+    kids: ['a','b','v']
+};
+jobj.location = 'Unknown';
+jobj['twitter'] ='@johnsmith69';
+console.log(jobj);
+
+//Small Challenge
+//Jonas has 3 kids and his first child is v
+
+//My answer
+console.log(`${jobj.firstName} has ${jobj.kids.length} kids and his first child is ${jobj.kids[2]}`);
+
