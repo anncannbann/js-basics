@@ -211,7 +211,7 @@ else{
     console.log("Not Found,please Check input");
 }
 */
-
+/*
 //USING BOTH TOGETHER
 const jobj= {
     firstName : 'John',
@@ -230,3 +230,22 @@ console.log(jobj);
 //My answer
 console.log(`${jobj.firstName} has ${jobj.kids.length} kids and his first child is ${jobj.kids[2]}`);
 
+*/
+
+
+//OBJECT Methods
+
+const jobj= {
+    firstName : 'John',
+    lastName : 'Smith',
+    byear: 1998,
+    job: 'teacher',
+    kids: ['a','b','v'],
+    hasDrivers: true,
+
+    
+    calcAge: function(byear){
+        return 2021- byear;
+    }
+
+};
