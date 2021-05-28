@@ -234,7 +234,7 @@ console.log(`${jobj.firstName} has ${jobj.kids.length} kids and his first child 
 
 
 //OBJECT Methods
-/*
+
 const jobj= {
     firstName : 'John',
     lastName : 'Smith',
@@ -251,9 +251,15 @@ const jobj= {
 
     //this keyword
     
+    // calcAge: function(){
+    //     console.log(this);
+    //     return 2021- this.byear;
+    // }
+
+    //since of we call that function multiple times. 
     calcAge: function(){
-        console.log(this);
-        return 2021- this.byear;
+        this.age = 2021- byear;
+        return ;
     }
 };
 
@@ -265,4 +271,3 @@ const jobj= {
 //console.log(jobj['calcAge'](jobj['byear']));
 
 console.log(jobj.calcAge());
-*/
