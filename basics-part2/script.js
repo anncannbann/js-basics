@@ -271,3 +271,4 @@ const jobj= {
 //console.log(jobj['calcAge'](jobj['byear']));
 
 console.log(jobj.calcAge());
+dd
