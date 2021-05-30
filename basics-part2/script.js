@@ -290,7 +290,7 @@ console.log(jobj.getSummary());
 // }
 
 //For loop Array
-/*
+
 const jArray= [
     'John',
     'Smith',
@@ -312,18 +312,29 @@ for (let i = 0; i <= jArray.length;i++){
 }
 
 console.log(`types Array is ${types}`);
-*/
+
 
 
 
 const years = [1969,2020,1988,1999,2000];
 const ages = [];
+
 for (let i = 0; i<years.length; i++){
-    ages[i] = 2020- years[i];
+    ages[i] = 2021- years[i];
 }
 
 console.log(`Byear of everyone is ${years}`)
-
 console.log(`Ages of everyone is ${ages}`)
 
+//continue and break statement
+console.log('------------------ONLY FANS:STRING EDITION---------------------')
+for (let i = 0;i<jArray.length;i++){
+    if(typeof jArray[i] !== 'string') continue;
+    console.log(jArray[i],typeof jArray[i]);
+}
+console.log('-----------------ONLY FANS:BREAK with NUMBER EDITION------------------')
+for (let i = 0;i<jArray.length;i++){
+    if(typeof jArray[i] !== 'number') break;
+    console.log(jArray[i],typeof jArray[i]);
+}
 
