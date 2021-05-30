@@ -234,7 +234,7 @@ console.log(`${jobj.firstName} has ${jobj.kids.length} kids and his first child 
 
 
 //OBJECT Methods
-
+/*
 const jobj= {
     firstName : 'John',
     lastName : 'Smith',
@@ -278,3 +278,17 @@ const jobj= {
 
 console.log(jobj.calcAge());
 console.log(jobj.getSummary());
+*/
+
+
+
+
+//For loop
+for (let i = 1;i <= 10;i++){
+    console.log(`First Loop ever! ${i}`)
+}
+
+
+
+
+
