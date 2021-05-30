@@ -332,6 +332,7 @@ for (let i = 0;i<jArray.length;i++){
     if(typeof jArray[i] !== 'string') continue;
     console.log(jArray[i],typeof jArray[i]);
 }
+
 console.log('-----------------ONLY FANS:BREAK with NUMBER EDITION------------------')
 for (let i = 0;i<jArray.length;i++){
     if(typeof jArray[i] !== 'number') break;
