@@ -282,13 +282,48 @@ console.log(jobj.getSummary());
 
 
 
+//LOOOOOPPPPSSSSSS
 
 //For loop
-for (let i = 1;i <= 10;i++){
-    console.log(`First Loop ever! ${i}`)
+// for (let i = 1;i <= 10;i++){
+//     console.log(`First Loop ever! ${i}`)
+// }
+
+//For loop Array
+/*
+const jArray= [
+    'John',
+    'Smith',
+    2047-283,
+    'teacher',
+    ['a','b','v']
+];
+
+const types = [];
+
+for (let i = 0; i <= jArray.length;i++){
+    
+    console.log(`${i} is ${jArray[i]} and has type ${typeof jArray[i]}`);
+    //one way
+    //types[i] = typeof jArray[i];
+    
+    //using push
+    types.push(typeof jArray[i]);
 }
 
+console.log(`types Array is ${types}`);
+*/
 
 
+
+const years = [1969,2020,1988,1999,2000];
+const ages = [];
+for (let i = 0; i<years.length; i++){
+    ages[i] = 2020- years[i];
+}
+
+console.log(`Byear of everyone is ${years}`)
+
+console.log(`Ages of everyone is ${ages}`)
 
 
