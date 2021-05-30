@@ -258,8 +258,14 @@ const jobj= {
 
     //since of we call that function multiple times. 
     calcAge: function(){
-        this.age = 2021- byear;
+        this.age = 2021- this.byear;
         return ;
+    },
+
+    getSummary: function(){
+        return `${this.firstName} is a ${this.age} ${this.job} and he has ${this.hasDrivers ? 'a' :'no' } driver's license.`;
+
+
     }
 };
 
@@ -271,4 +277,4 @@ const jobj= {
 //console.log(jobj['calcAge'](jobj['byear']));
 
 console.log(jobj.calcAge());
-dd
+console.log(jobj.getSummary());
