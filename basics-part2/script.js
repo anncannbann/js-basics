@@ -290,7 +290,7 @@ console.log(jobj.getSummary());
 // }
 
 //For loop Array
-
+/*
 const jArray= [
     'John',
     'Smith',
@@ -333,9 +333,35 @@ for (let i = 0;i<jArray.length;i++){
     console.log(jArray[i],typeof jArray[i]);
 }
 
+
 console.log('-----------------ONLY FANS:BREAK with NUMBER EDITION------------------')
 for (let i = 0;i<jArray.length;i++){
     if(typeof jArray[i] !== 'number') break;
     console.log(jArray[i],typeof jArray[i]);
 }
+*/
+
+
+//Loop backwards and loop in loop
+/*
+const jArray= [
+    'John',
+    'Smith',
+    2047-283,
+    'teacher',
+    ['a','b','v']
+];
+
+for (let i =jArray.length-1; i>=0; i--){
+    console.log(jArray[i]);
+}
+*/
+for (let i = 1;i <4;i++){
+    console.log(`---------ex ${i}-----------------`);
+
+    for (let j = 1;j< 6;j++){
+        console.log(`--------meow ${j}`);
+    }
+}
+
 
