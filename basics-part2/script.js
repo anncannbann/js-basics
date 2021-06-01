@@ -378,9 +378,9 @@ while(x <=10){
 
 //dice 
 let d = Math.trunc( Math.random()* 6 +1);
-console.log(d);
 
 while(d!==6){
     console.log(`Your number is ${d}`);
     d = Math.trunc( Math.random()* 6 +1);
+    if(d===6)console.log(`loop ending, you got a 6.`)
 }
