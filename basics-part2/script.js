@@ -377,6 +377,7 @@ while(x <=10){
 */
 
 //dice 
+/*
 let d = Math.trunc( Math.random()* 6 +1);
 
 while(d!==6){
@@ -384,3 +385,4 @@ while(d!==6){
     d = Math.trunc( Math.random()* 6 +1);
     if(d===6)console.log(`loop ending, you got a 6.`)
 }
+*/
