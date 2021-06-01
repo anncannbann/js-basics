@@ -355,13 +355,21 @@ const jArray= [
 for (let i =jArray.length-1; i>=0; i--){
     console.log(jArray[i]);
 }
-*/
+
 for (let i = 1;i <4;i++){
-    console.log(`---------ex ${i}-----------------`);
+    console.log(`---------Name of the activity ${i}-----------------`);
 
     for (let j = 1;j< 6;j++){
-        console.log(`--------meow ${j}`);
+        console.log(`Activity ${i}--------meow ${j}`);
     }
 }
 
+*/
 
+
+//while loop
+let x = 1;
+while(x <=10){
+    console.log( `While loop timw ${x}`);
+    x++;
+}
