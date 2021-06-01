@@ -368,8 +368,19 @@ for (let i = 1;i <4;i++){
 
 
 //while loop
+/*
 let x = 1;
 while(x <=10){
     console.log( `While loop timw ${x}`);
     x++;
+}
+*/
+
+//dice 
+let d = Math.trunc( Math.random()* 6 +1);
+console.log(d);
+
+while(d!==6){
+    console.log(`Your number is ${d}`);
+    d = Math.trunc( Math.random()* 6 +1);
 }
