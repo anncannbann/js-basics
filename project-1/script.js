@@ -2,9 +2,10 @@
 
 //secret number
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
-
+console.log(secretNumber);
 //Score count
-let score = 5;
+let score = 10;
+let highscore = 0;
 
 //to display number => document.querySelector('.number').textContent = secretNumber;
 
@@ -30,10 +31,15 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector(
       '.message'
     ).textContent = `You guessed My Number!🤯 `;
-    document.querySelector('.highscore').textContent = score;
+
     document.querySelector('body').style.backgroundColor = '#fe4a49';
     document.querySelector('.number').style.width = '30rem';
     document.querySelector('.number').textContent = secretNumber;
+    console.log(`score is ${score} and highscore is cuurently ${highscore}`);
+    if (score > highscore) {
+      highscore = score;
+      document.querySelector('.highscore').textContent = highscore;
+    }
   }
 
   //Number is Higher than the Secret number
@@ -81,7 +87,7 @@ GOOD LUCK 😀
 
 document.querySelector('.again').addEventListener('click', function () {
   secretNumber = Math.trunc(Math.random() * 20) + 1;
-  score = 5;
+  score = 10;
 
   document.querySelector('.message').textContent = 'Start Guessing...';
   document.querySelector('.score').textContent = score;
@@ -89,4 +95,5 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.guess').value = '';
   document.querySelector('.number').style.width = '15rem';
   document.querySelector('body').style.backgroundColor = '#222';
+  console.log(secretNumber);
 });
