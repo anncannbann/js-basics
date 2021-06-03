@@ -4,7 +4,7 @@
 const secretNumber = Math.trunc(Math.random() * 20) + 1;
 
 //Score count
-let score = 20;
+let score = 5;
 
 //to display number =>
 document.querySelector('.number').textContent = secretNumber;
