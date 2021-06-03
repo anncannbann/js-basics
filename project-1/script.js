@@ -1,7 +1,7 @@
 'use strict';
 
 //secret number
-const secretNumber = Math.trunc(Math.random() * 20) + 1;
+let secretNumber = Math.trunc(Math.random() * 20) + 1;
 
 //Score count
 let score = 5;
@@ -78,3 +78,15 @@ Implement a game rest functionality, so that the player can make a new guess! He
 
 GOOD LUCK 😀
 */
+
+document.querySelector('.again').addEventListener('click', function () {
+  secretNumber = Math.trunc(Math.random() * 20) + 1;
+  score = 5;
+
+  document.querySelector('.message').textContent = 'Start Guessing...';
+  document.querySelector('.score').textContent = score;
+  document.querySelector('.number').textContent = '?';
+  document.querySelector('.guess').value = '';
+  document.querySelector('.number').style.width = '15rem';
+  document.querySelector('body').style.backgroundColor = '#222';
+});
