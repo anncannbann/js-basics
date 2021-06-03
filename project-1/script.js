@@ -18,6 +18,7 @@ document.querySelector('.check').addEventListener('click', function () {
   // );
 
   //Game Logic Begins Here.....
+  //
   //No input and check button clicked.
   if (!guess) {
     document.querySelector(
@@ -42,24 +43,39 @@ document.querySelector('.check').addEventListener('click', function () {
     }
   }
 
-  //Number is Higher than the Secret number
-  else if (guess > secretNumber) {
-    if (score > 1) {
-      document.querySelector('.message').textContent = `Too high. 📈`;
-      score--;
-      document.querySelector('.score').textContent = score;
-    } else {
-      document.querySelector(
-        '.message'
-      ).textContent = `You Lost the Game 😈  Try again Next Time.`;
-      document.querySelector('.score').textContent = 0;
-    }
-  }
+  // //Number is Higher than the Secret number
+  // else if (guess > secretNumber) {
+  //   if (score > 1) {
+  //     document.querySelector('.message').textContent = `Too high. 📈`;
+  //     score--;
+  //     document.querySelector('.score').textContent = score;
+  //   } else {
+  //     document.querySelector(
+  //       '.message'
+  //     ).textContent = `You Lost the Game 😈  Try again Next Time.`;
+  //     document.querySelector('.score').textContent = 0;
+  //   }
+  // }
 
-  //Number is Smaller than the Secret Number.
-  else if (guess < secretNumber) {
+  // //Number is Smaller than the Secret Number.
+  // else if (guess < secretNumber) {
+  //   if (score > 1) {
+  //     document.querySelector('.message').textContent = `Too Low. 📉`;
+  //     score--;
+  //     document.querySelector('.score').textContent = score;
+  //   } else {
+  //     document.querySelector(
+  //       '.message'
+  //     ).textContent = `You Lost the Game 😈  Try again Next Time.`;
+  //     document.querySelector('.score').textContent = 0;
+  //   }
+  // }
+  //
+  //
+  else if (guess !== secretNumber) {
     if (score > 1) {
-      document.querySelector('.message').textContent = `Too Low. 📉`;
+      document.querySelector('.message').textContent =
+        guess > secretNumber ? `Too high. 📈` : `Too Low. 📉`;
       score--;
       document.querySelector('.score').textContent = score;
     } else {
