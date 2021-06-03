@@ -32,9 +32,9 @@ document.querySelector('.check').addEventListener('click', function () {
     ).textContent = `You guessed My Number!🤯 `;
     document.querySelector('.highscore').textContent = score;
   }
-  //Number is Less
+  //Number is Higher than the Secret number
   else if (guess > secretNumber) {
-    if (score > 0) {
+    if (score > 1) {
       document.querySelector('.message').textContent = `Too high. 📈`;
       score--;
       document.querySelector('.score').textContent = score;
@@ -42,12 +42,13 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector(
         '.message'
       ).textContent = `You Lost the Game 😈  Try again Next Time.`;
+      document.querySelector('.score').textContent = 0;
     }
   }
 
-  //Number is Larger
+  //Number is Smaller than the Secret Number.
   else if (guess < secretNumber) {
-    if (score > 0) {
+    if (score > 1) {
       document.querySelector('.message').textContent = `Too Low. 📉`;
       score--;
       document.querySelector('.score').textContent = score;
@@ -55,6 +56,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector(
         '.message'
       ).textContent = `You Lost the Game 😈  Try again Next Time.`;
+      document.querySelector('.score').textContent = 0;
     }
   }
 });
