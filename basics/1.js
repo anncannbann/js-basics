@@ -1,21 +1,18 @@
 /** first basic program */
 
-
-
 /** Values and Variables.  */
-/*
+
 let js = "amazing";
-      //if(js ==="amazing") alert ("JS is fun");
-      console.log(40+23+23-100);
+//if(js ==="amazing") alert ("JS is fun");
+console.log(40 + 23 + 23 - 100);
 
-      //console.log("Jonas");
-      let x = "Jonas";
-      console.log(x); 
+//console.log("Jonas");
+let x = "Jonas";
+console.log(x);
 
-      let a=100,b=12;
-      console.log(a+b);
-
-*/
+let a = 100,
+  b = 12;
+console.log(a + b);
 
 /**Data Types -7*/
 /*
@@ -56,8 +53,6 @@ let js = "amazing";
 
 */
 
-
-
 /* let,const and var  diff ways to declaring variables*/
 /*
       //using let 
@@ -72,8 +67,6 @@ let js = "amazing";
       var age = 44;
       age = 50;
 */
-
-
 
 /* BAsic Operators */
 /*
@@ -103,8 +96,6 @@ console.log(age1 > age2);     // >,<, >=, <=
 /* Operator Precedence */
 //mdn precedence op
 
-
-
 /*Strings and Template Literals*/
 /*
 const fname = 'John';
@@ -125,7 +116,6 @@ new line without n`)
 
 */
 
-
 /* if-else */
 /*
 const age = 15;
@@ -145,7 +135,6 @@ const age = 15;
 /* Truthy Falsy values */
 //5 basic values F : 0,'', undef,null,NaN
 
-      console.log(Boolean(0));
-      
+console.log(Boolean(0));
 
 /* === vs == */
