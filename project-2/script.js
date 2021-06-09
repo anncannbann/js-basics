@@ -10,3 +10,5 @@ const btnsOpen = document.querySelectorAll('.show-modal');
 for (let i = 0; i < btnsOpen.length; i++) {
   console.log(btnsOpen[i].textContent);
 }
+
+//esc plan
